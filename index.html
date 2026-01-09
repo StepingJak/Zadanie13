@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 13</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.validation/1.16.0/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+    <style>
+        label.error {
+            color: red;
+            display: block;
+        }
+    </style>
+        
+</head>
+<body>
+    <form id="formularz" style="text-align: center;">
+        <h1>Formularz</h1>
+        <p>Nazwa użytkownika:</p>
+        <input type="text" id="login" name="login">
+        <p>Imię:</p>
+        <input type="text" id="imie" name="imie">
+        <p>Wiek:</p>
+        <input type="number" id="wiek" name="wiek">
+        <p>E-mail:</p>
+        <input type="email" id="email" name="email">
+        <p>Hasło:</p>
+        <input type="password" id="haslo" name="haslo">
+        <p>Powtórz hasło:</p>
+        <input type="password" id="powtorzHaslo" name="powtorzHaslo"><br>
+        <input type="submit" value="Wyślij">
+    </form>
+    
+</body>
+</html>
